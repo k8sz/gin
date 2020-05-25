@@ -16,3 +16,4 @@ func GetPage(c *gin.Context) int {
 
     return result
 }
+

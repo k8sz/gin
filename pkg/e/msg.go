@@ -21,3 +21,4 @@ func GetMsg(code int) string {
 
 	return MsgFlags[ERROR]
 }
+
