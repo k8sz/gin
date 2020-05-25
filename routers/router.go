@@ -5,7 +5,7 @@ import (
 
     "github.com/k8sz/gin/pkg/setting"
 
-    "github.com/k8sz/gin/routers/api/v1"
+    "github.com/k8sz/gin/routers/api"
 
 
     
