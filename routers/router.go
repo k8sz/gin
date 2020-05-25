@@ -11,7 +11,7 @@ import (
     
     "github.com/k8sz/gin/routers/api/v1"
 
-    "github.com/k8sz/gin/middleware/jwt"
+    "github.com/k8sz/gin/mid/jwt"
 )
 
 func InitRouter() *gin.Engine {
