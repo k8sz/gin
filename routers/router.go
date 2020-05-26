@@ -8,6 +8,9 @@ import (
     "github.com/k8sz/gin/routers/api"
     _ "github.com/k8sz/gin/docs"
 
+    "github.com/swaggo/gin-swagger"
+	"github.com/swaggo/gin-swagger/swaggerFiles"
+
     
     "github.com/k8sz/gin/routers/api/v1"
 
