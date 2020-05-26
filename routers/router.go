@@ -6,7 +6,7 @@ import (
     "github.com/k8sz/gin/pkg/setting"
 
     "github.com/k8sz/gin/routers/api"
-
+    _ "github.com/k8sz/gin/docs"
 
     
     "github.com/k8sz/gin/routers/api/v1"
@@ -20,6 +20,8 @@ func InitRouter() *gin.Engine {
     r.Use(gin.Logger())
 
     r.Use(gin.Recovery())
+
+    r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
     gin.SetMode(setting.RunMode)
 

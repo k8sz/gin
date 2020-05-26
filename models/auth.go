@@ -12,6 +12,5 @@ func CheckAuth(username, password string) bool {
 	if auth.ID > 0 {
 		return true
 	}
-
 	return false
 }
